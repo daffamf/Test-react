@@ -9,24 +9,24 @@ import axios from 'axios'
 
 export default class index extends Component {
 
-    constructor(){
+    constructor() {
         super()
         this.state = {
-            users : [ ]
+            users: []
         }
     }
 
-componentDidMount(){
-  const Url = 'https://restcountries.eu/rest/v2/all?fields=name;capital;currencies '
-  axios.get(Url)
-  .then(users =>{
-     this.setState({
-         users:users.data
-     })
-  })
-}
-    render(data) {
-       
+    componentDidMount() {
+        const Url = 'https://restcountries.eu/rest/v2/all'
+        axios.get(Url)
+            .then(users => {
+                this.setState({
+                    users: users.data
+                })
+            })
+    }
+
+    render() {
         return (
             <div>
                 <div className="counter">
@@ -36,23 +36,23 @@ componentDidMount(){
                     <InputGroup className='inputGroup'>
                         <FormControl
                             type="text"
-                           placeholder="Type any country name"
+                            placeholder="Type any country name"
 
                         />
                         <div className="searchLogo">
                             <SearchLogo />
                         </div>
-              
+
                     </InputGroup>
                     <div className="dataResult">
-                      
-                    {this.state.users.map(user =>{
-                    return (
-                        <a className="dataItem"href={user.link} ><p>{user.name}</p></a>
-                    )
-             
-                })}
-                 </div>
+
+                        {this.state.users.map((user, key) => {
+                            return (
+                                <p1 className="dataItem" href='/Country' ><p>{user.name}</p></p1>
+                            )
+
+                        })}
+                    </div>
                 </div>
             </div>
         )

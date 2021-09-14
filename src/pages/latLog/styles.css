@@ -1,0 +1,42 @@
+.globe1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 1.56%;
+    bottom: 1.56%;
+    
+    background: rgba(0, 0, 0, 0.05);
+}
+.angka{
+    position: absolute;
+width: 261px;
+height: 57px;
+left: 20    px;
+top: 70px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+color: #8362F2;
+}
+.loglat{
+    position: absolute;
+width: 71px;
+height: 21px;
+left: 115px;
+top: 322px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+}

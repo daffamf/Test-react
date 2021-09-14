@@ -1,0 +1,161 @@
+.button1{
+    position: absolute;
+    width: 229px;
+    height: 50px;
+    margin-left:5%;
+    top: 50px;
+    background: #8362F2;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.country{
+
+position: absolute;
+width: 229px;
+height: 50px;
+margin-left:5%;
+top: 150px;
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+color: #000000;
+}
+.id{
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 50px;
+    top: 195px;
+    background: #8DD5CC;
+    border-radius: 50px;
+}
+.id1{
+    position: absolute;
+width: 13px;
+height: 14px;
+left: 20px;
+top: 10px;
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #FFFFFF;
+}
+.roi{
+ position: absolute;
+width: 161px;
+height: 25px;
+left: 90px;
+top: 197px;
+background: #8DD5CC;
+border-radius: 50px;
+}
+.roi1{
+    position: absolute;
+width: 130px;
+height: 14px;
+left: 30px;
+top: 10px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.RI{
+    position: absolute;
+width: 145px;
+height: 25px;
+left: 150px;
+top: 195px;
+
+background: #8DD5CC;
+border-radius: 50px;
+}
+.RI1{
+    position: absolute;
+width: 115px;
+height: 14px;
+left: 140px;
+top: 10px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.latlong{
+    position: absolute;
+width: 540px;
+height: 143px;
+left: 90px;
+top: 297px;
+
+background: #FFFFFF;
+box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.02), 4px 4px 4px rgba(0, 0, 0, 0.02);
+border-radius: 5px;
+}
+.latLong{
+    position: absolute;
+width: 71px;
+height: 21px;
+left: 115px;
+top: 322px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+}
+.capital{
+
+position: absolute;
+width: 540px;
+height: 143px;
+left: 655px;
+top: 297px;
+
+background: #FFFFFF;
+box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.02), 4px 4px 4px rgba(0, 0, 0, 0.02);
+border-radius: 5px;
+}
+.Capital{
+    position: absolute;
+width: 135px;
+height: 21px;
+left: 681px;
+top: 329px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}

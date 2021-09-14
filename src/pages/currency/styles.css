@@ -1,0 +1,66 @@
+.currency{
+    position: absolute;
+width: 80px;
+height: 21px;
+left: 655px;
+top: 480px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+}
+.Curr{
+    position: absolute;
+width: 85px;
+height: 57px;
+left: 655px;
+top: 506px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+color: #8362F2;
+
+}
+.Curren1{
+    position: absolute;
+width: 188px;
+height: 17px;
+left: 655px;
+top: 574px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #8362F2;
+
+}
+.Curren{
+    position: absolute;
+    width: 188px;
+    height: 17px;
+    left: 713px;
+    top: 574px;
+    
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
