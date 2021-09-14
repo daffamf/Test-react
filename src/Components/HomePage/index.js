@@ -13,9 +13,10 @@ export default class index extends Component {
         super()
         this.state = {
             users: []
+        
         }
-    }
 
+    }
     componentDidMount() {
         const Url = 'https://restcountries.eu/rest/v2/all'
         axios.get(Url)
@@ -24,6 +25,16 @@ export default class index extends Component {
                     users: users.data
                 })
             })
+    }
+
+    handelChange(event){
+        const target = event.target;
+        const value = target.value;
+        const  name= target.name
+
+        
+
+        
     }
 
     render() {
@@ -37,7 +48,8 @@ export default class index extends Component {
                         <FormControl
                             type="text"
                             placeholder="Type any country name"
-
+                           value={this.state.name}
+                            onChange={this.handelChange}
                         />
                         <div className="searchLogo">
                             <SearchLogo />
